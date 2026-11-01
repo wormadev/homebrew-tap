@@ -1,6 +1,6 @@
 cask "tokei" do
-  version "0.1.1"
-  sha256 "6e4cbafde2681bc9f7ec21bf9a89fd5de0e134e1500612b2bacb8aed4fc657d3"
+  version "0.1.2"
+  sha256 "9a6b7e588299aa0d4b0b51dd175b321800cd8299bdc982f3c47be5f431ad22e6"
 
   url "https://github.com/wormadev/Tokei/releases/download/v#{version}/Tokei-#{version}.dmg"
   name "Tokei"
