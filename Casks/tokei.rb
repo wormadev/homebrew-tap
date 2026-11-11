@@ -17,11 +17,6 @@ cask "tokei" do
 
   app "Tokei.app"
 
-  # Not notarized yet (no Developer ID): without this, Gatekeeper refuses the first launch.
-  postflight do
-    system_command "/usr/bin/xattr", args: ["-dr", "com.apple.quarantine", "#{appdir}/Tokei.app"]
-  end
-
   uninstall quit: "com.wormadev.Tokei"
 
   zap trash: [
